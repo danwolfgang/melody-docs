@@ -2,7 +2,7 @@
 
 ## Start from Scratch
 
-Congratulations, you have decided to take the first step in becoming an expert in Movable Type. In what might be considered rites of initiation your first task is to create a blog in Movable Type, and then to **delete all of its templates**, thereby cleansing you of any preconceptions you have about Movable Type and how it works. When this process is complete, your system will consist exclusively of a raw publishing engine. And that's it, nothing more. Your system will then be ready for you to begin layering on one feature after another, and in so doing slowly build a strong foundation of knowledge in the Movable Type Publishing Platform.
+Congratulations, you have decided to take the first step in becoming an expert in Melody and Movable Type. In what might be considered rites of initiation your first task is to create a blog in Movable Type, and then to **delete all of its templates**, thereby cleansing you of any preconceptions you have about Movable Type and how it works. When this process is complete, your system will consist exclusively of a raw publishing engine. And that's it, nothing more. Your system will then be ready for you to begin layering on one feature after another, and in so doing slowly build a strong foundation of knowledge in the Movable Type Publishing Platform.
 
 Let's begin.
 
@@ -132,7 +132,11 @@ Our first task will be output your web sites name into the `<title>` tag and in 
 
 Congratulations, you have successfully created your web site. It is simple right now, just a homepage and a basic style, but you are well on your way. Now it is time to expand your web site with additional content and see how Melody can serve as an excellent web site content management tool.
 
-TODO - ease transition into next session
+## Expanding your Knowledge
+
+You've created an Index Template for your homepage, and no doubt recognize that you can create many more Index Templates.
+
+Before Starting from Scratch you saw some Archives Templates, Template Modules, and System Templates. You may have even noticed Widgets! These are all different types of templates, each with a special purpose. You can use some (or all!) of them in concert to build your web site. Keep following along to learn about each type, and what they are for.
 
 ## Add an About Page to your Web Site
 
@@ -146,7 +150,7 @@ Topics taught in this section:
 
 ### Index Templates and Page Templates
 
-For those familiar with creating as index template to publish your web site's homepage, it will would be a relatively straight forward process to use an index template to also publish an about page for you web site. The process would go something like this:
+For those familiar with creating an index template to publish your web site's homepage, it will would be a relatively straight forward process to use an index template to also publish an about page for you web site. The process would go something like this:
 
 1. Navigate to Templates from the Design Menu.
 2. Click Create Index Template.
@@ -165,9 +169,11 @@ A page template provides the designer and users with the following advantages:
 
 To put it another way, **pages produced by page templates are nice because they are simple**. A user need only select the "Page" menu item from the Create menu and they can be publishing a new page for their web site in seconds. However, in their simplicity, they do lack certain capabilities index templates have. To help you better understand these differences and make a more informed decision with regards to what will be right for you, read the following differences carefully:
 
-* The content entered for a page cannot contain any Melody template code and are thus relatively static. 
+* The content entered for a page cannot contain any Melody template code and are thus relatively static.
 
 * Users are free to use a rich text, or WYSIWYG editor when creating pages. They cannot use such an editor when editing index templates.
+
+* Pages can have Commenting or Trackbacks enabled, while index template don't have this functionality. Similarly, Pages can track (and publish) when they were created and updated, while index templates don't have this functionality.
 
 * More?
 
@@ -178,20 +184,31 @@ Let's assume though that you have weighed your options and have decided that usi
 Before you can create pages, your theme must first define a page template and an archive mapping for that template. Here is how you would do that:
 
 1. Navigate to Templates from the Design Menu.
-2. Under the Archive Templates table, click Create Archive Template: Page. 
+2. Under the Archive Templates table, click Create Archive Template: Page.
 3. Enter the information and HTML about your page template in the space provided. Click Save.
+
+    Sample?
+
 4. Once the page has been saved, expand the Template Options area just above the save buttons
 5. Click "Create Archive Mapping" and select `folder-path/page-basename.html` from the Path pull-down menu.
 
-With the page template and archive mapping in place, you can now publish pages to your web site with ease. 
+With the page template and archive mapping in place, you can now publish pages to your web site with ease.
+
+**Create a Page**
+
+Now let's use the Page Template by creating a page. Choose Page from the Create menu to get started: name your page (perhaps "About this Site"?) and enter some text in the body field. You can use any of the formatting options (remember, you can use a WYSIWYG editor here, but not in the template editor), and fill in any other fields you like. Be sure the Status is set to Publish, and click Save.
+
+You did it! Click the View link in the upper right to see your published page.
+
+The Page Template you created is used for every page you create. So, why not add another? In addition to an About page, your site might need a Contact page, or a Directions page, or maybe even an Advertise With Us page. Create them all the exact same way. Reusing the Page Template in this way helps to keep your site design and style consistent, and makes it easy to add and edit any Page you may need.
 
 ### Diversion: An Introduction to Template Modules
 
-Now that we have created at least two templates in your system, an index and archive template, you have almost certainly have duplicate blocks of HTML in your templates. The most common elements to be replicated across templates are the header and footer of your web site.
+Now that we have created at least two templates in your system, an index and archive template, you almost certainly have duplicate blocks of HTML in your templates. The most common elements to be replicated across templates are the header and footer of your web site.
 
 Technically there is nothing wrong with having template code replicated across multiple templates, but generally is considered non-ideal because it makes templates harder to manage and update.
 
-Consider for example that you want to update your site's header in some way, perhaps by changing your site's logo or masthead. If the HTML for your header is replicated across multiple templates then you will have to make the necessary changes to your header as many times as there are templates for your web site. This can be time consuming, and potentially error prone. 
+Consider for example that you want to update your site's header in some way, perhaps by changing your site's logo or masthead. If the HTML for your header is replicated across multiple templates then you will have to make the necessary changes to your header as many times as there are templates for your web site. Right now, with one Index Template and one Page Template this is easy -- but you may have five or ten (or many, many more) templates to deal with, so updating the masthead or logo turns into a substantial task. Combing through all these templates can be time consuming, and potentially error prone.
 
 A better approach would be to share the HTML that is common between your templates in some way, which is why we have template modules. Template modules are nothing more than fragments of HTML and MTML that can be included or referenced by name from other templates. When used effectively, that means that if you needed to update your header, you would only need to edit the one relevant template module and you would be done.
 
@@ -233,11 +250,11 @@ Template modules also offer another key, but often under appreciated advantage: 
       </body>
     </html>
 
-In this example you should hopefully see how template modules can dramatically improve the readability of your templates by dramatically reducing their complexity.
+In this example you should hopefully see how template modules can dramatically improve the readability of your templates by significantly reducing their complexity.
 
 ## Building Navigation for Your Web Site
 
-With the introduction of pages to your web site, a new need emerges: giving your users the ability to easily find their way around the site. Perhaps the most common way web sites help users is this respect is with some form of global navigation that reflects the major destinations or content areas within a site. 
+With the introduction of pages to your web site, a new need emerges: giving your users the ability to easily find their way around the site. Perhaps the most common way web sites help users in this respect is with some form of global navigation that reflects the major destinations or content areas within a site. 
 
 In the following example we will create the most basic form of web site navigation: a simple horizontal "nav bar" that lists all of the pages within your web site. To begin lets create a new template module called "Navigation." In the template body, enter the following:
 

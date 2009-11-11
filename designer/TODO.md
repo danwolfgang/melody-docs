@@ -47,23 +47,80 @@ Let's begin.
 * Show ads only to people coming from search
 
 ## Adding a Print Stylesheet for your Site
+
+* Add a link to a print stylesheet
+
 ## Adding Digg Buttons and ShareThis
-## Adding Related Entries 
+
+* Add the "official" code
+* Add share links with Promote This!
+
+## Adding Related Entries
+
+* http://wiki.movabletype.org/Related_Entries (related by tag)
+* Plugins: mt-relatedentries, RelatedEntriesByKeyword (any others?)
+* Display other entries in current category
+
 ## Displaying a List of Nested Categories
+
+* Example: Category Archives widget
+
 ## Inserting a Javascript Gallery of Photos
-## Switch to Nested Comments to Your Blog
+
+* AssetGallery
+* Using the Entry Asset Manager
+
+## Nested and Date-Ordered Comments on Your Blog
+
+* Nested comments
+* Date-ordered comments
+
 ## Adding Action Streams to Your Blog
+
+* Should this just point to the Action Streams plugin and documentation?
+
 ## Sticky Posts
+
+* Using a private tag
+* Using a checkbox custom field
+
 ## Creating Featured Posts
+
+* Using a private tag
+* Using a checkbox custom field
+
 ## Adding Google Analytics to Your Site
 ## Adding Feedburner to Your Site
 ## Creating a Slideshow of Featured Content
 ## Featuring Comments
+
+* Recent Comments widget
+
 ## Allowing Readers to Subscribe to New Comments
-## Building Drop Down Menus from Categories
+
+* MT-Notifier
+* SubscribeComments
+
+## Building Drop Down Menus
+
+* With Categories (category/subcategory relationship)
+* With Folders (folder/page relationship)
+
 ## Aggregating Content from Other Blogs
+
+* Multiblog
+* Plugins: Reblog, Feeds.App, even Action Streams
+
 ## Adding Author Archives
+
+Does this belong in "adding a blog to your site," in Laying the Groundwork?
+
 ## Displaying a List of Authors for Your Site
+
+## Adding a Contact Form to Your Site
+
+* Creating a Page with Comments enabled
+* Contact Form plugin?
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -79,6 +136,8 @@ Let's begin.
 
 ## Aggregating Content Between Blogs
 
+Is there a reason to separate this and "Adding Content From Other Blogs" in Extending Your Website?
+
 * blog_ids
 
 ## Keeping Content Fresh 
@@ -87,7 +146,14 @@ Let's begin.
 * MultiBlog 2.1 beta
 
 ## Global Template Modules
+
+## Using Config Assistant to Extend Your Site
+
+# Different Site Examples and Uses
 ## Creating a Product Catalog
 ## Building a Portfolio Web Site
 ## Adding Press Releases to your Web Site
+## Adding an Event Calendar to your Web site
+
+* http://endevver.com/2009/11/creating-event-calendars-in-movable-type.html
 

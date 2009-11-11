@@ -1,6 +1,26 @@
 Welcome to the Melody Documentation Project where community members are invited to contribute to our most vital resource.
 
-## Table of Contents
+# Table of Contents
+
+* Building Web Sites with Melody
+    * Who is this Guide for?
+    * Using this Guide
+
+* Laying the Groundwork: Building Your First Web Site and Blog
+    * Start from Scratch
+    * Create a Homepage
+        * Your Main Index
+        * Your Stylesheet
+        * Adding Some Template Tags
+        * Summary
+    * Expanding your Knowledge
+    * Add an About Page to your Web Site
+        * Index Templates and Page Templates
+            * Setting Up a Page Template
+        * Diversion: An Introduction to Template Modules
+        * Building Navigation for your Web Site
+            * Picking Which Pages to Appear in the Site's Navigation
+        
 
 This project contains the following documents:
 
