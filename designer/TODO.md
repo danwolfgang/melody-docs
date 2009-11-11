@@ -3,9 +3,12 @@
 ## Adding a Blog to your Site
 
 * Blog Index template
+* Blog Archive template
 * Entry Template
+    * With comments/trackback? Should that be a separate section?
 * Entry Listing Template
 * Adding Javascript
+* Creating a Blog Post
 
 ## Adding a Feed to your Blog
 

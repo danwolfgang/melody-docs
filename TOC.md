@@ -17,9 +17,10 @@ Welcome to the Melody Documentation Project where community members are invited 
     * Add an About Page to your Web Site
         * Index Templates and Page Templates
             * Setting Up a Page Template
+            * Create a Page
         * Diversion: An Introduction to Template Modules
-        * Building Navigation for your Web Site
-            * Picking Which Pages to Appear in the Site's Navigation
+    * Building Navigation for your Web Site
+        * Picking Which Pages to Appear in the Site's Navigation
         
 
 This project contains the following documents:

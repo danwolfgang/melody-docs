@@ -315,3 +315,26 @@ Let's apply this concept to a site's navigation to illustrate. Suppose your webs
 
 Once in place, you can instruct users to select which pages they want to appear in the navigation by editing each of the pages in question and adding the `@topnav` tag to the list of tags associated with the page. Then republish your site and presto, your new nav will appear.
 
+
+## Adding a Blog to your Site
+
+Melody does a lot of things well, and helping you create a successful blog is one of them! Before you can start blogging, though, you need to add the necessary templates.
+
+### Adding Blog Templates
+
+To publish your blog we're going to use several templates. Adding the templates for your blog is similar to some steps you've already taken: creating the Page and Index Templates. Let's get started:
+
+** Blog Index Template **
+
+Your blog needs a home page! On some sites the blog home page is *the* home page, but for this example, we're going to add an index template specifically for it. The blog index template will stay up-to-date with several of your newest blog entries.
+
+** Blog Archive Template **
+
+Your blog index template only holds the most recent entries you write, not all of them. Imagine how long it could get after a few months or even years of blogging! A Blog Archive Template is a page listing your entire blogging history. A blog archive template will typically display only a few key pieces of information -- such as the entry date and title -- along with a link to that entry.
+
+** Entry Template **
+
+The Entry Template is the heart of your blog. The entry template is used to publish your entry to it's own URL. (That's very similar to the Page Template you created, that allowed you to publish a Page to it's own URL. Indeed, the process is the same, and the result is similar, too.)
+
+** Entry Listing Template **
+
